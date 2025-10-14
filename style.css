@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.navbar{
+    padding: 32px 165px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255,255,255);
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-links li{
+    list-style: none;
+    margin: 0 20px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.hero{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(249,248,249);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .hero-text{
+    padding: 0 55px;
+    width: 50%;
+}
+.hero h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(9,75,114)#333;
+    /* line-height: 1.2; */
+}
+.hero .subheading{
+    padding: 24px 0;
+    font-size: 18px;
+    color: #555;
+    /* line-height: 1.6; */
+}
+.hero .btn{
+    padding: 16px 32px;
+    background-color: rgb(9,75,114);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.hero .btn:hover{
+    background-color: rgb(7, 60, 91);
+}
+
+.hero .desc{
+    padding: 115px 0 24px;
+    font-size: 16px;
+    color: #777;
+}
+.hero .logo-table img{
+    width: 100px;
+    height: auto;
+}
+.hero .logo-table .logo-row{
+    display: flex;
+    gap: 32px;
+}
+.hero .hero-image{
+    width: 50%;
+    /* height: 50%; */
+    padding-right: 224px;
+}
+
+
+.hero .hero-image img{
+    width: 100%;
+    height: auto;
+}
+
+.why-do-help{
+    padding: 126px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+    background-color: rgb(242,252,255);
+    width: 100%;
+    height: 80%;
+}
+
+.why-do-help .head{
+    width: 40%;
+    height: auto;
+    padding: 175px 0px 310px 175px;
+
+}
+
+.why-do-help .head h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(9,75,114);
+    /* line-height: 1.2; */
+}
+.why-do-help .card-list{
+    width: 60%;
+    padding-right: 260px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.why-do-help .card-list .card{
+    width: 256px;
+    /* height: auto; */
+    background-color: rgb(252,252,252);
+    padding: 32px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.achievements{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    padding: 70px 0;
+    background-color: rgb(18,130,166);
+}
+.achievements .achievement-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 32px;
+}
+
+.clients-testimonial{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    align-items: center;
+    padding: 70px 0;
+    background-color: rgb(246,252,255);
+}
+
+.clients-testimonial .testimonial-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 32px;
+}
+
+.clients-testimonial .testimonial-list div{
+    width: 40%;
+    height: 160px;
+    background-color: rgb(255,255,255);
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.questions{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    /* gap: 20px; */
+    background-color: rgb(249,248,249);
+    position: relative;
+}
+
+.questions .questions-text{
+    /* width: 60%; */
+    height: auto;
+    padding-left: 100px;
+}
+
+.questions .questions-text h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(9,75,114);
+    /* line-height: 1.2; */
+}
+
+.questions .questions-text p{
+    padding: 24px 0;
+    font-size: 18px;
+    color: #555;
+    /* line-height: 1.6; */
+}
+
+.questions .questions-text .btn{
+    padding: 16px 32px;
+    background-color: rgb(9,75,114);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.questions .questions-text .btn:hover{
+    background-color: rgb(7, 60, 91);
+}
+
+.questions img{
+    /* width: 40%; */
+    height: 100%;
+    position: absolute;
+    right: -100px;
+}
+
+.footer{
+        width: 100%;
+        display: flex;
+        align-items: start;
+        justify-content: space-between;
+        gap: 200px;
+        padding: 70px 100px;
+    }
+
+    .footer img{
+        width: 20%;
+    }
+
+    .footer-table{
+        width: 80%;
+    }
+    .footer-table thead{
+        font-weight: 600;
+        font-size: 24px;
+        color: rgb(9,75,114);
+        padding-bottom: 16px;
+    }
+    .footer-table tr{
+        text-align: left;
+        vertical-align: top;
+    }
