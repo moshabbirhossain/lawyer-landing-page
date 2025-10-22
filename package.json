@@ -1,0 +1,27 @@
+{
+  "name": "lawyer-landing-page",
+  "version": "1.0.0",
+  "description": "Live Link: https://lawyer-landing-page-design.netlify.app/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/app.css -o ./public/output.css",
+    "watch": "npx tailwindcss -i ./src/app.css -o ./public/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moshabbirhossain/lawyer-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moshabbirhossain/lawyer-landing-page/issues"
+  },
+  "homepage": "https://github.com/moshabbirhossain/lawyer-landing-page#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.15",
+    "daisyui": "^5.3.7",
+    "tailwindcss": "^4.1.15"
+  }
+}
